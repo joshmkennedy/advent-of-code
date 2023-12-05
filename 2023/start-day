@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+#
+mkdir -p day-$1
+touch day-$1/day-$1.php
+echo "<?php" >> day-$1/day-$1.php
+echo "echo 'day $1';" >> day-$1/day-$1.php
+touch day-$1/day-$1.input.txt
+
+echo "Created day-$1/day-$1.php and day-$1/day-$1.input.txt"
+echo "All done!"
+

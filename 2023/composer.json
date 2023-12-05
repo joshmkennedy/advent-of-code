@@ -1,0 +1,17 @@
+{
+    "name": "aoc/2023",
+    "autoload": {
+        "psr-4": {
+            "Aoc\\TwentyThree\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "josh kennedy",
+            "email": "josh@outthinkgroup.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.34"
+    }
+}
